@@ -9,7 +9,11 @@ FrontEnd-Certification
 👨🏻‍💻 Profesor: Fernando del Valle
 
 Módulo 1 - HTML y CSS
+
 Módulo 2 - JavaScript
+
 Módulo 3 - Algoritmos
+
 Módulo 4 - Estructuras de control
+
 Módulo 5 - Estructuras de datos
