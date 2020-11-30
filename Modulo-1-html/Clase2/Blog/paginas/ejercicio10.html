@@ -9,11 +9,36 @@
             background-color: gray;
             margin-left: 20px;
             width: 40%;
+            border-radius: 10px;
         }
-        .comentarios{
+        .date{
             background-color: lightgray;
             margin-left: 10px;
         }
+        .imagenOnline {
+        margin-left: 5px;
+        margin-top: 10px;
+        width: 8%;
+        border: 3px solid green;
+        border-radius: 120px;
+      }
+      .imagenOcupado {
+        margin-left: 5px;
+        margin-top: 10px;
+        width: 8%;
+        border: 3px solid red;
+        border-radius: 120px;
+      }
+      .imagenOffline {
+        margin-left: 5px;
+        margin-top: 10px;
+        width: 8%;
+        border: 3px solid black;
+        border-radius: 120px;
+      }
+      .handle{
+          font-weight: bold;
+      }
     </style>
 </head>
 <body>
@@ -23,8 +48,24 @@
 
     <h2>Comentarios:</h2>
     <div class="caja">
-        <h3>@lmbd92</h3>
-        <span class="comentarios">Publicado hace 14 minutos</span>
+        <img class="imagenOnline" src="https://i.pinimg.com/originals/ef/b8/eb/efb8eb427dc6c0f35a3d72a82b0dee62.png"/>
+        <span class="handle">@lmbd92</span>
+        <span class="date">Publicado hace 20 minutos</span>
+        <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Repellendus numquam molestias labore quibusdam laudantium, repellat pariatur. Eos modi quasi, illum corporis recusandae libero explicabo nobis! Possimus optio doloremque ut porro?</p>
+
+        <img class="imagenOffline" src="https://www.show.news/__export/1595109462886/sites/debate/img/2020/07/18/goku_x2x_crop1595109404079.jpg_423682103.jpg"/>
+        <span class="handle">@LinaLunera</span>
+        <span class="date">Publicado hace 14 días</span>
+        <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Repellendus numquam molestias labore quibusdam laudantium, repellat pariatur. Eos modi quasi, illum corporis recusandae libero explicabo nobis! Possimus optio doloremque ut porro?</p>
+
+        <img class="imagenOcupado" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSvYQwMxdDEt2WLFqYaxXf9GN9swVJfcightw&usqp=CAU"/>
+        <span class="handle">@Kakarot</span>
+        <span class="date">Publicado hace 1 mes</span>
+        <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Repellendus numquam molestias labore quibusdam laudantium, repellat pariatur. Eos modi quasi, illum corporis recusandae libero explicabo nobis! Possimus optio doloremque ut porro?</p>
+
+        <img class="imagenOcupado" src="https://holatelcel.com/wp-content/uploads/2020/03/dragon-ball-2.jpg"/>
+        <span class="handle">@Gohan</span>
+        <span class="date">Publicado hace 1 mes</span>
         <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Repellendus numquam molestias labore quibusdam laudantium, repellat pariatur. Eos modi quasi, illum corporis recusandae libero explicabo nobis! Possimus optio doloremque ut porro?</p>
     </div>
     
