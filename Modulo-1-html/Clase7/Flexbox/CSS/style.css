@@ -1,0 +1,38 @@
+.container{    
+    display: flex;
+    /*flex-direction me permite definir la línea principal del objeto
+      flex-direction: column; => align-items: Row
+      flex-direction: Row; => align-items: column
+      */
+    flex-direction: row;
+        
+      /*justify-content acepta:
+        --Se desplaza sobre la línea principal
+        flex-start
+        center
+        flex-end
+        space-around : Máxima separación entre cajas
+        space-between : Genera una separación entre los objetos que resulta de la suma del margen derecho e izquierdo de cada elemento.
+        space-evenly : Genera una separación entre los objetos 
+        */
+    justify-content: space-evenly;
+    background-color: burlywood;
+    height: 600px;  
+    /* align-items acepta:
+        Se desplaza sobre la línea secundaria
+        flex-start
+        center
+        flex-end        
+        */
+    align-items: center;    
+    }
+
+.caja-flexible{
+    color: red;
+    font-size: 45px;
+    text-align: center;
+    border: 2px solid black;
+    width: 50px;
+    height: 50px;
+    background-color: aquamarine;
+}
