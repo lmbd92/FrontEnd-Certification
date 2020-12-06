@@ -1,16 +1,30 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto+Condensed:ital,wght@0,300;0,400;1,300;1,700&display=swap');
 
+*{
+    font-family: 'Roboto', sans-serif;
+}
+
 table{
     border: 1px solid black;
-    width: 100%;
+    border-collapse: collapse;
+    width: 50%;
 }
 table tr th{
-    border: 2px solid black;
-    background-color: lightgray;
+    border: 1px solid black;
+    background-color: #E63326;
+    color: white;
 }
 table tr td{
     border: 1px solid black;
+    width: 40px;
+    height: 60px;
+}
+td{
+    text-align: center;
 }
 .telefono{
     text-align: right;
+}
+img{
+    width: 20%;
 }
