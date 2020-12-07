@@ -3,7 +3,11 @@
 @import url("https://fonts.googleapis.com/css2?family=Roboto+Condensed:ital,wght@0,300;0,400;0,700;1,300;1,400;1,700&display=swap");
 
 * {
-    font-family: "IBM Plex Sans","Helvetica Neue",Arial,sans-serif;
+  font-family: "IBM Plex Sans", "Helvetica Neue", Arial, sans-serif;
+}
+p {
+  font-family: "Roboto", "Helvetica Neue", Arial, sans-serif;
+  margin-left: 40px;
 }
 
 h1 {
@@ -12,12 +16,18 @@ h1 {
   font-weight: 700;
   margin-bottom: 25px;
   line-height: 1.2em;
+  margin-left: 40px;
 }
 h2{
-    font-family: "Roboto","Helvetica Neue",Arial,sans-serif;
-    font-weight: 400;
-    font-size: 1.625em;
-    color: #666;
+  
+}
+.excerpt {
+  font-family: "Roboto", "Helvetica Neue", Arial, sans-serif;
+  font-weight: 400;
+  font-size: 1.625em;
+  color: #666;
+  margin-left: 40px;
+  margin-top: -5px;
 }
 
 .color-primario {
@@ -39,5 +49,37 @@ h2{
   display: inline-block;
 }
 .tamañoImagen {
-  width: 50%;
+  width: 60%;
+}
+ul li {
+  list-style: none;
+  display: inline-block;
+  margin-left: 10px;
+}
+.redes {
+  width: 50px;
+  border-radius: 120px;
+}
+.figcaptionDerecha {
+  text-align: right;
+  float: right;
+  max-width: 25%;
+  color: #474747;
+}
+.figcaptionizquierda {
+  font-size: 0.875em;
+  font-weight: 400;
+  color: #474747;
+  line-height: 1.1em;
+  padding: 15px 0;
+}
+.DivFigureCaption {
+  width: 60%;
+}
+.spanblue {
+  color: #0289cb;
+}
+.divNav {
+  padding-left: 40px;
+  margin-top: -10px;
 }
