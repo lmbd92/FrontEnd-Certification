@@ -3,14 +3,19 @@
 @import url("https://fonts.googleapis.com/css2?family=Roboto+Condensed:ital,wght@0,300;0,400;0,700;1,300;1,400;1,700&display=swap");
 
 * {
-  font-family: "IBM Plex Sans", "Helvetica Neue", Arial, sans-serif;
+  font-family: "Roboto", "Helvetica Neue", Arial, sans-serif;
 }
 p {
-  font-family: "Roboto", "Helvetica Neue", Arial, sans-serif;
   margin-left: 40px;
+  color: #666;
+  font-size: 20px;
+}
+a{
+  text-decoration: none;
 }
 
 h1 {
+  font-family: "IBM Plex Sans", "Helvetica Neue", Arial, sans-serif;
   font-size: 3.75em;
   color: #333;
   font-weight: 700;
@@ -18,8 +23,14 @@ h1 {
   line-height: 1.2em;
   margin-left: 40px;
 }
-h2{
-  
+h2 {
+  color: #0289cb;
+  margin-bottom: 25px;
+  margin-left: 40px;
+  font-size: 44px;
+}
+h3 {
+  margin-left: 40px;
 }
 .excerpt {
   font-family: "Roboto", "Helvetica Neue", Arial, sans-serif;
@@ -82,4 +93,15 @@ ul li {
 .divNav {
   padding-left: 40px;
   margin-top: -10px;
+}
+.tema {
+  border: 1px solid #0289cb;
+  font-weight: 400;
+  font-size: 1em;
+  color: #0289cb;
+  padding: 10px 15px;
+  line-height: 1;
+  margin: 0 10px 20px 0;
+  text-transform: uppercase;
+  
 }
