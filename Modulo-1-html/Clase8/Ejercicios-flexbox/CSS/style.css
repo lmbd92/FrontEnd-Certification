@@ -1,0 +1,36 @@
+* {
+  margin: 0;
+}
+.container {
+  width: 100vw;
+  height: 100vh;
+}
+#header {
+  background-color: #f4c8fc;
+  width: 100vw;
+  height: 15vh;
+}
+#panel-central {
+  display: flex;
+  flex-direction: row;
+  height: 70vh;
+  width: 100vw;
+}
+#panel-izquierdo {
+  width: 30vw;
+  height: 70vh;
+  background-color: #d69ff8;
+}
+#panel-derecho {
+  width: 70vw;
+}
+#footer {
+  background-color: #f4c8fc;
+  width: 100vw;
+  height: 15vh;
+}
+.texto-centrado {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
