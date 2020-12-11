@@ -1,0 +1,71 @@
+@import url('https://fonts.googleapis.com/css2?family=Langar&display=swap');
+*{
+  font-family: 'Langar', cursive;
+  margin-left: 40px;
+}
+div {
+  border: solid black;
+  width: 80px;
+}
+ul li {
+  display: inline-block;
+  list-style: none;
+  margin-left: 10px;
+  border: 1px solid black;
+  padding: 5px;
+  font-weight: bold;
+}
+h1{
+  font-size: 80px;
+  text-align: center;
+}
+h2{
+  font-size: 30px;
+}
+#B3F049 {
+  background-color: #b3f049;
+}
+#FAA820 {
+  background-color: #faa820;
+}
+#E3294B {
+  background-color: #e3294b;
+  color: white;
+}
+#A4020FA {
+  background-color: #4020fa;
+  color: white;
+}
+#A1FF0D5 {
+  background-color: #1ff0d5;
+}
+#color1 {
+  background-color: hsl(164, 100%, 50%);
+}
+#color2 {
+  background-color: hsl(87, 100%, 50%);
+}
+#color3 {
+  background-color: hsl(46, 100%, 50%);
+}
+#color4 {
+  background-color: hsl(329,100%,50%);
+}
+#color5 {
+  background-color: hsl(272, 100%, 50%);
+}
+#item1{
+  background-color: rgb(123, 222, 40);
+}
+#item2{
+  background-color: rgb(51, 222, 139);
+}
+#item3{
+  background-color: rgb(29, 84, 222);
+}
+#item4{
+  background-color: rgb(209, 46, 224);
+}
+#item5{
+  background-color: rgb(222, 42, 18);
+}
