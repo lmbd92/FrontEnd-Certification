@@ -1,0 +1,26 @@
+* {
+  margin: 0;
+}
+.container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #fa4f23;
+  height: 100vh;
+}
+#item1 {
+  font-size: 30px;
+}
+
+#item2 {
+  font-size: 30px;
+}
+#item3 {
+  font-size: 60px;
+}
+#item4 {
+  font-size: 30px;
+}
+#item5 {
+  font-size: 30px;
+}
