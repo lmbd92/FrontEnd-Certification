@@ -3,11 +3,23 @@
 * {
   margin: 0;
   box-sizing: border-box;
+  font-family: "Open Sans", Helvetica, Arial, sans-serif !important;
 }
 hr {
   border-top: 1px solid lightgrey;
 }
+h1 {
+  display: block;
+  font-weight: 400;
+}
+main {
+  font-size: 16px;
+}
+header {
+  font-size: 15px;
+}
 .container {
+  background-image: url("https://www.santander.com.ar/banco/wcm/connect/01f0bbdd-0f2b-46d1-a68d-be19b87732af/bg-beneficios.png?MOD=AJPERES&amp;CACHEID=ROOTWORKSPACE-01f0bbdd-0f2b-46d1-a68d-be19b87732af-na6cdIJ");
   background-color: #e4f1f5;
   width: 100vw;
   height: 100vh;
@@ -22,12 +34,6 @@ hr {
 .displayflexcolumna {
   display: flex;
   flex-direction: column;
-}
-.multipleCol{
-  display: inline-block;
-  vertical-align: top;
-  width: 20%;
-  height: 170px;
 }
 .spacebetween {
   justify-content: space-between;
@@ -61,17 +67,62 @@ hr {
 .margen-iz-boton {
   margin-left: 20px;
 }
+.margen-izquierdo-15 {
+  margin-left: 15px;
+}
+.margen-superior10 {
+  margin-top: 10px;
+}
+.margen-superior15 {
+  margin-top: 15px;
+}
+.margen-superior30 {
+  margin-top: 30px;
+}
 .margen-sup {
   margin-top: 20px;
 }
-h1 {
-  display: block;
-  font-weight: 400;
-}
 .card {
-  background-color: ghostwhite;
-  border: 1px solid gray;
+  background-color: #fff;
+  border: 1px solid #fff;
+  font-size: 20px;
   border-radius: 15px;
-  width: 20%;
   height: 170px;
+  padding-left: 10px;
+  padding-bottom: 0;
+  box-shadow: 0 0 30px 0 rgba(0, 0, 0, 0.15);
+}
+
+.cardRect {
+  background-color: #fff;
+  border: 1px solid #fff;
+  border-radius: 15px;
+  height: 340px;
+  padding-left: 10px;
+  padding-bottom: 0;
+  box-shadow: 0 0 30px 0 rgba(0, 0, 0, 0.15);
+}
+.imgcard1 {
+  max-width: 20%;
+}
+.ancho25 {
+  width: 25%;
+}
+.flecha {
+  color: red;
+  margin-left: 5px;
+}
+.boton2 {
+  font-size: 15px;
+  cursor: pointer;
+  width: 100%;
+  padding: 0 15px;
+  bottom: 12px;
+}
+.boton2:hover {
+  color: red;
+  transition: 0.3s;
+}
+.porcentaje {
+  font-size: 80px;
 }
