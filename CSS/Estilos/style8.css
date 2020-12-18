@@ -1,0 +1,27 @@
+* {
+  margin: 0;
+  background-color: #212121;
+  color: #fafafa;
+}
+.container {
+  width: 100vw;
+  height: 100vh;
+}
+.panelMain {
+  display: flex;
+  flex-direction: row;
+  height: 9vh;
+  justify-content: center;
+  align-items: center;
+}
+ul {
+  padding: 0px 0px 0px 0px;
+}
+.caja {
+  display: flex;
+  flex-direction: row;
+  height: 9vh;
+  justify-content: center;
+  align-items: center;
+  border: 1px solid white;
+}

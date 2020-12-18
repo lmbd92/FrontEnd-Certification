@@ -1,21 +1,35 @@
 CSS
-
 https://desarrolloweb.com/home/css#track25
+--------------------------------------
 
 Code Sandbox - Editor de código online
 
 https://codesandbox.io/
+--------------------------------------
 
 
 Pagina para tarea
 https://www.ambito.com/negocios/black-friday/2020-que-ofertas-habra-comprar-online-n5149225
+--------------------------------------
 
 Media queries:
 https://frontend.adaitw.org/docs/html-css/hc16
+--------------------------------------
 
 Flexbox:
 https://dev.to/fernandomatiasdv/flexbox-5f81
 https://flexboxfroggy.com
+--------------------------------------
 
 www.behance.net
+
+--------------------------------------
+
+GitHub Tutorial
+https://youtu.be/jHSlIRMGq2o
+
+-------------------
+Solución tarea pag. Santander.ar
+https://github.com/Carolinalmrz89/ada-intro-a-git
+
 
