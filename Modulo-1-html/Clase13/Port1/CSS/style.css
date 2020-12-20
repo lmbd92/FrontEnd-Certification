@@ -1,0 +1,87 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.container {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  width: 100%;
+  padding: 0 50px 0 50px;
+}
+.flexcolum {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  height: 250px;
+  width: 50%;
+}
+.caja {
+  border: 1px solid black;
+  background-color: lightslategray;
+  width: 150px;
+  height: 250px;
+}
+.background {
+  width: 250px;
+  height: 100%;
+}
+.margen-sup-25 {
+  margin-top: 25px;
+}
+.caja2 {
+  border: solid 1px red;
+  width: 30vw;
+  height: 250px;
+  font-size: 42px;
+}
+.flex {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+}
+.margen-inf {
+  margin-bottom: 25px;
+}
+.imagen {
+  background-image: url("https://frontend-proyecto-portfolio.adaitw.org/images/Screen%20Shot%202020-07-12%20at%2014.31.06.png");
+  background-size: cover;
+  width: auto;
+  height: 25%;
+}
+
+.margen-izq {
+  margin-left: 50px;
+  margin-top: 50px;
+}
+.padding {
+  padding-left: 20px;
+  padding-top: 50px;
+}
+
+/*------*/
+.card {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.proy {
+  border: solid 1px red;
+  width: 30vw;
+  height: 250px;
+}
+
+.abajo {
+  margin-top: 20px;
+}
+
+.margin-left {
+  margin-left: 20px;
+}
+
+.margin-rigth {
+  margin-right: 20px;
+}

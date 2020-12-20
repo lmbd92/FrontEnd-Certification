@@ -32,4 +32,13 @@ https://youtu.be/jHSlIRMGq2o
 Solución tarea pag. Santander.ar
 https://github.com/Carolinalmrz89/ada-intro-a-git
 
+-------------------
+Font awesome
+
+https://fontawesome.com/
+
+-------------------
+Rapidly build modern websites without ever leaving your HTML
+https://tailwindcss.com/
+
 
