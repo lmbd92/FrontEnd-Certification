@@ -1,0 +1,28 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap");
+* {
+  font-family: SFMono-Regular, Consolas, Liberation Mono, Menlo, monospace;
+}
+.container {
+  display: flex;
+  justify-content: space-around;
+}
+.card {
+  text-align: left;
+  padding: 5px 5px 5px 5px;
+  width: 200px;
+  border: 1px solid black;
+  border-radius: 30px;
+}
+.pendiente {
+  background-color: #493eff;
+  color: #ffffff;
+}
+.haciendo {
+  background-color: #ffb732;
+}
+.hecha {
+  background-color: #8ee69b;
+}
+.cancelada {
+  background-color: #e6446c;
+}
