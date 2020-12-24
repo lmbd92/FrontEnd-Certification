@@ -1,7 +1,9 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap');
 * {
   margin: 0;
   background-color: #212121;
   color: #fafafa;
+  font-family: 'Roboto', sans-serif;
 }
 .container {
   width: 100vw;
@@ -10,7 +12,7 @@
 .panelMain {
   display: flex;
   flex-direction: row;
-  height: 9vh;
+  height: 100%;
   justify-content: center;
   align-items: center;
 }
@@ -20,8 +22,44 @@ ul {
 .caja {
   display: flex;
   flex-direction: row;
-  height: 9vh;
   justify-content: center;
-  align-items: center;
-  border: 1px solid white;
+  width: 30%;
+  height: 8vh;
+  margin-left: 460px;
+}
+.colorOne {
+  background-color: #0265ff;
+}
+.colorTwo {
+  background-color: #0099ff;
+}
+.colorThree {
+  background-color: #00ccff;
+}
+.colorFour {
+  background-color: #a0e6ff;
+}
+.colorFive {
+  background-color: #d0f7fc;
+}
+.colorSix {
+  background-color: #fcfee6;
+}
+.colorSeven {
+  background-color: #ffff67;
+}
+.colorEight {
+  background-color: #ffca00;
+}
+.colorNine {
+  background-color: #ff9935;
+}
+.colorTen {
+  background-color: #ff8f3b;
+}
+.colorEleven {
+  background-color: #f23005;
+}
+.fuente {
+  color: #212121;
 }
