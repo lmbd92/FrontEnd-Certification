@@ -1,0 +1,32 @@
+* {
+  margin: 0;
+  box-sizing: border-box;
+}
+.fuente {
+  font-size: 16px;
+}
+li {
+  font-size: 1.5em;
+}
+.rem {
+  font-size: 2rem;
+}
+
+.tamanio {
+  width: 800px;
+  height: 300px;
+}
+
+.caja {
+  background-color: aqua;
+}
+@media screen and (min-width: 576px) and (max-width: 768px) {
+  .caja {
+    background-color: greenyellow;
+  }
+}
+@media screen and (max-width: 576px) {
+  .caja {
+    background-color: green;
+  }
+}
