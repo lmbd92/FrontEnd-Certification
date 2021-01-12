@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Formulario</title>
+  </head>
+  <body>
+    <form method="POST" action="">
+      <label for="idNombre">Nombre:</label>
+      <input
+        id="idNombre"
+        name="name"
+        type="text"
+        placeholder="Ingresa tu nombre"
+      />
+      <br />
+      <label for="lastName">Apellido:</label>
+      <input
+        id="LastName"
+        name="lastName"
+        type="text"
+        placeholder="Ingresa tu apelllido"
+      />
+      <br />
+      <label for="idMail">E-Mail:</label>
+      <input
+        id="idMail"
+        name="mail"
+        type="mail"
+        placeholder="Ingresa tu mail"
+      />
+      <br />
+
+      <label for="idPassword1">Contraseña:</label>
+      <input
+        id="idPassword1"
+        name="password"
+        type="password"
+        placeholder="Contraseña"
+      /><br />
+
+      <label for="idPassword2">Contraseña:</label>
+      <input
+        id="idPassword2"
+        name="password"
+        type="password"
+        placeholder="Confirmar contraseña"
+      /><br />
+
+      <label for="idEdad">Ingresa tu edad:</label>
+      <input
+        id="idEdad"
+        name="edad"
+        type="number"
+        value="10"
+        min="0"
+        max="99"
+      /><br />
+
+      <label for="idTime">Hora</label>
+      <input id="idTime" type="time" value="09:20" /> <br />
+      <label for="idDate">Fecha</label>
+      <input id="idDate" type="date" value="2020-12-12" />
+      <hr />
+      <h3>Comidas tipicas del norte</h3>
+
+      <input type="checkbox" value="Empanada" id="empanada" name="norte" />
+      <label for="empanada">Empanada</label><br />
+
+      <input type="checkbox" value="Humita" id="humita" name="norte" />
+      <label for="humita">Humita</label><br />
+
+      <input type="checkbox" value="Llama" id="llama" name="norte" />
+      <label for="llama">Llama</label><br />
+
+      <input type="checkbox" value="Tamales" id="tamales" name="norte" />
+      <label for="tamales">Tamales</label><br />
+
+      <input
+        type="checkbox"
+        value="Cordero Patagónico"
+        id="cordero"
+        name="norte"
+      />
+      <label for="cordero">Cordero Patagónico</label><br />
+      <hr />
+      <h3>Pasa Tiempos:</h3>
+      <input type="radio" id="idMusica" value="musica" name="pasatiempo" />
+      <label for="idMusica">Musica</label>
+
+      <input type="radio" id="idInternet" value="internet" name="pasatiempo" />
+      <label for="idInternet">Internet</label>
+
+      <input type="radio" id="idCine" value="cine" name="pasatiempo" />
+      <label for="idCine">Cine</label>
+
+      <input type="radio" id="idtv" value="tv" name="pasatiempo" />
+      <label for="idtv">Tv</label>
+
+      <select name="IdAutos" id="autos">
+        <option value="volvo">Volvo</option>
+        <option value="chevrolet">Chevrolet</option>
+        <option value="mazda">Mazda</option>
+      </select>
+
+      <input type="submit" value="enviar" />
+    </form>
+    <br />
+    <textarea
+      name="comentarios"
+      id="Idcomentarios"
+      cols="100"
+      rows="10"
+      placeholder="Ingresa tu mensaje"
+    ></textarea>
+  </body>
+</html>
