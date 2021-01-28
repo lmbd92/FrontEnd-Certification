@@ -1,0 +1,95 @@
+@import url("https://fonts.googleapis.com/css2?family=Spartan:wght@400;500;700&display=swap");
+
+* {
+  margin: 0;
+  box-sizing: border-box;
+}
+html,
+body {
+  padding: 0 10px;
+  font-size: 15px;
+  font-family: "Spartan", sans-serif;
+}
+.attribution {
+  font-size: 11px;
+  text-align: center;
+}
+.attribution a {
+  color: hsl(228, 45%, 44%);
+}
+.sectionTitle {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+h1 {
+  color: #512051;
+  font-weight: 700;
+  padding: 80px 30px 20px 30px;
+  text-align: center;
+}
+.description {
+  color: rgb(143, 140, 140);
+  text-align: center;
+  padding: 0 15px 40px 15px;
+  font-weight: 500;
+  line-height: 1.5em;
+}
+.sectionSugerencias {
+  display: flex;
+  flex-direction: column;
+}
+.sugerencias {
+  color: #512051;
+  font-weight: 700;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  height: 70px;
+  background-color: hsl(300, 24%, 96%);
+  padding: 10px;
+  border-radius: 5px;
+  margin-bottom: 15px;
+  line-height: 1.5em;
+}
+.comentarios {
+  display: flex;
+  flex-direction: column;
+}
+.card {
+  background-color: #512051;
+  height: auto;
+  padding: 30px;
+  margin-bottom: 15px;
+  border-radius: 8px;
+}
+.header {
+  display: flex;
+  align-items: center;
+}
+.avatarImage {
+  width: 50px;
+  height: 50px;
+  border-radius: 120px;
+}
+.profile-name {
+  margin-left: 10px;
+}
+.username {
+  color: white;
+  margin-left: 10px;
+  font-weight: 600;
+}
+.userID {
+  color: #7a497a;
+  font-weight: 500;
+  margin-left: 10px;
+}
+.comment {
+  color: white;
+  font-weight: 100;
+}
+.text{
+    margin-top: 30px;
+}
