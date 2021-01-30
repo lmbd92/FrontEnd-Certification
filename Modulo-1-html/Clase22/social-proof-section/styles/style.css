@@ -6,6 +6,8 @@
 }
 html,
 body {
+  background-image: url("../images/bg-pattern-top-mobile.svg");
+  background-repeat: no-repeat;
   padding: 0 10px;
   font-size: 15px;
   font-family: "Spartan", sans-serif;
@@ -30,7 +32,7 @@ h1 {
   text-align: center;
 }
 .description {
-  color: rgb(143, 140, 140);
+  color: #927b91;
   text-align: center;
   padding: 0 15px 40px 15px;
   font-weight: 500;
@@ -41,11 +43,11 @@ h1 {
   flex-direction: column;
 }
 .sugerencias {
-  color: #512051;
-  font-weight: 700;
   display: flex;
   flex-direction: column;
   align-items: center;
+  color: #512051;
+  font-weight: 700;
   height: 70px;
   background-color: hsl(300, 24%, 96%);
   padding: 10px;
@@ -90,6 +92,88 @@ h1 {
   color: white;
   font-weight: 100;
 }
-.text{
-    margin-top: 30px;
+.text {
+  margin-top: 30px;
+}
+
+/* Responsive */
+@media screen and (min-width: 576px) {
+  body {
+    padding: 150px;
+    background-image: url("../images/bg-pattern-top-desktop.svg");
+    background-repeat: no-repeat;
+  }
+  .Tittle-rating {
+    display: flex;
+  }
+  .sectionTitle {
+    width: 40%;
+  }
+  .sectionSugerencias {
+    width: 60%;
+  }
+  h1 {
+    color: #512051;
+    font-weight: 700;
+    padding: 10px 30px 20px 15px;
+    text-align: left;
+  }
+  .description {
+    color: #927b91;
+    text-align: left;
+    padding: 0 15px 40px 15px;
+    font-weight: 500;
+    line-height: 1.5em;
+  }
+  .comentarios {
+    display: flex;
+    flex-direction: row;
+    margin-top: 50px;
+  }
+  .card {
+    background-color: #512051;
+    height: auto;
+    padding: 30px;
+    margin-left: 25px;
+    border-radius: 8px;
+  }
+  .posicion1 {
+    position: relative;
+    left: 50px;
+  }
+
+  .posicion2 {
+    position: relative;
+    left: 100px;
+  }
+
+  .posicionComent1 {
+    position: relative;
+    top: 50px;
+  }
+
+  .posicionComent2 {
+    position: relative;
+    top: 100px;
+  }
+  .sugerencias {
+    width: 80%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    color: #512051;
+    font-weight: 700;
+    height: 70px;
+    background-color: hsl(300, 24%, 96%);
+    padding: 10px;
+    border-radius: 5px;
+    margin-bottom: 15px;
+    line-height: 1.5em;
+  }
+  .attribution {
+    position: relative;
+    top: 100px;
+    font-size: 11px;
+    text-align: center;
+  }
 }
