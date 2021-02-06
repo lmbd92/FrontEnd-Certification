@@ -52,5 +52,12 @@ https://www.w3schools.com/
 -------------------
 Book
 https://refactoringui.com/book/#get-refactoring-ui
+-------------------
+Libreria iconos
+https://react-icons.github.io/react-icons/
+
+-------------------
+Dominios y deploy web
+netlify.com
 
 
