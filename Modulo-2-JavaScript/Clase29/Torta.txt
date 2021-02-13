@@ -1,0 +1,46 @@
+1 - Inicio
+2 - Elegir dispositivo de cocción    
+        Var dispositivo = prompt("Ingrese dispositivo a usar para cocinar la torta:")
+        
+3 - Precalentar dispositivo de cocción a 200 °C por 30 minutos
+        Precalentar(dispositivo, temperatura, tiempo)
+
+4 - Seleccionar ingredientes para la torta
+        Seleccionar(ingredientes)
+
+5 - Tomar recipiente para mezcla
+        Tomar(recipiente)
+
+6 - Añadir la harina y el polvo para hornear en un recipiente
+        Añadir(harina, polvoHornear)
+
+7 - Batir las claras de manera independiente
+        Batir(clarasHuevo)
+
+8 - Añadir leche y las claras ya batidas a la mezcla
+        Añadir(clarasHuevoBatidas, leche)
+
+9 - Batir la mantequilla con el azúcar de manera independiente
+        Batir(mantequilla, azucar)
+
+10 - Añadir la mantequilla ya batida a la mezcla principal
+        Añadir(mantequilla)
+
+11 - batir todos los ingredientes hasta que estén todos bien mezclados
+        Batir(mezcla)
+
+12 - Engrasar el molde donde ira la mezcla
+        Engrasar(molde)
+
+13 - Poner harina al molde
+        Poner(molde, harina)
+
+14 - Hornear a 350 grados centígrados por una hora
+        Hornear(temperatura, tiempo)
+
+15 - Sacar molde del horno
+        Sacar(molde)
+
+16 - Dejar enfriar la torta
+        Enfriar(torta)
+
