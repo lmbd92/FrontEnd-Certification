@@ -1,0 +1,42 @@
+https://github.com/Ada-IT/ejercicios-frontend/blob/master/modulo-2/ejercicios/18-dom-eventos.md
+
+Clase 38 JS
+https://7ma-frontend-online.adaitw.org/docs/modulo-2/clase-38
+
+
+Ejercicio de adivinanza
+HTML------------
+<body>
+    <div>
+        <h1>Adivinanzas</h1>
+
+        <p>
+            ¿Qué es algo y nada a la vez?
+        </p>
+
+        <button id="rtaAire">El aire</button>
+        <button id="rtaPato">El pato</button>
+        <button id="rtaPez">El pez</button>
+
+        <p id="rta">Respuesta:</p>
+    </div>
+
+
+    <script src="./adivinanza.js"></script>
+</body>
+
+JavaScript----------------
+const rtaAire = document.querySelector("#rtaAire");
+const rtaPato = document.querySelector("#rtaPato");
+const rtaPez = document.querySelector("#rtaPez");
+const rta = document.querySelector("#rta");
+
+rtaPez.addEventListener('click', () => {
+    rta.textContent = "¡Correcto!";
+    rtaPez.style = "background-color: green";
+});
+
+
+Proyecto modulo JS-----------
+https://frontend-proyecto-meme.adaitw.org/
+
