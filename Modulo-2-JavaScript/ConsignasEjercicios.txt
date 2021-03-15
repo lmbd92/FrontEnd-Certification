@@ -1,0 +1,72 @@
+https://github.com/Ada-IT/ejercicios-frontend/blob/master/modulo-2/ejercicios/18-dom-eventos.md
+
+---------------Clase 37 JS-------------------------
+https://7ma-frontend-online.adaitw.org/docs/modulo-2/clase-37
+
+Selectores de DOM para Js
+
+document.querySelector // selecciona un elemento del DOM mediante un selector de CSS, es decir: #id, .class, Tag - p, h1, div, etc. -, es preciso tener en cuenta que solo afecta al primer elemento del DOM que coincida con la etiqueta de selección (Id, Class o Tag).
+
+Sintaxis: const NomVariable = document.querySelector("#NomId");
+	  const NomVariable = document.querySelector(".NomClass");
+	  const NomVariable = document.querySelector("NomTag");
+
+document.querySelectorAll // selecciona todos los elementos del DOM que coincidan con la etiqueta de busqueda que haya indicado (Id, Class o Tag).
+document.getElementByTag // selecciona todos los elementos del DOM que coincidan con el TAG - p, h1, div, etc. -
+document.getElementByClass //selecciona todos los elementos del DOM que coincidan con la clase
+
+Métodos para modificar el DOM
+
+NomVariable.textContent = "Mi texto"; //Solo me permite modificar en forma de texto plano
+NomVariable.innerHTML = "Mi texto"; //Permite ingresar etiquetas HTML al contenido del elemento
+NomVariable.style = "background-color: #ffffff"; //Permite modificar los stilos css del elemento
+NomVariable.className = "Rojo titulo texto"; //Modifica el atributo class de la etiqueta HTML
+NomVariable.classList.add("texto"); //Añade las clases indicadas. Si estas clases existieran en el atributo del elemento serán ignoradas.
+NomVariable.classList.remove("texto"); //Elimina las clases indicadas.Nota: Eliminar una clase que no existe NO produce un error
+NomVariable.classList.toggle("texto", [2do argumento]); //https://developer.mozilla.org/es/docs/Web/API/Element/classList#m%C3%A9todos
+NomVariable.classList.item(Number); // Devuelve el valor de la clase por índice en la colección.
+NomVariable.classList.constains("NomClase"); //Comprueba si la clase indicada existe en el atributo "class" del elemento.
+NomVariable.classList.replace ("oldClass", "newClass"); //Reemplaza una clase existente por una nueva.
+
+
+
+---------------Clase 38 JS-------------------------
+https://7ma-frontend-online.adaitw.org/docs/modulo-2/clase-38
+
+
+Ejercicio de adivinanza
+HTML------------
+<body>
+    <div>
+        <h1>Adivinanzas</h1>
+
+        <p>
+            ¿Qué es algo y nada a la vez?
+        </p>
+
+        <button id="rtaAire">El aire</button>
+        <button id="rtaPato">El pato</button>
+        <button id="rtaPez">El pez</button>
+
+        <p id="rta">Respuesta:</p>
+    </div>
+
+
+    <script src="./adivinanza.js"></script>
+</body>
+
+JavaScript----------------
+const rtaAire = document.querySelector("#rtaAire");
+const rtaPato = document.querySelector("#rtaPato");
+const rtaPez = document.querySelector("#rtaPez");
+const rta = document.querySelector("#rta");
+
+rtaPez.addEventListener('click', () => {
+    rta.textContent = "¡Correcto!";
+    rtaPez.style = "background-color: green";
+});
+
+
+Proyecto modulo JS-----------
+https://frontend-proyecto-meme.adaitw.org/
+
