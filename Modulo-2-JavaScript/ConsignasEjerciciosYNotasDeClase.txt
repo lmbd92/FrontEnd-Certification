@@ -74,5 +74,8 @@ https://frontend-proyecto-meme.adaitw.org/
 
 ---------------Clase 41 JS-------------------------
 
+Funciones nativas de Js
+
+
 
 

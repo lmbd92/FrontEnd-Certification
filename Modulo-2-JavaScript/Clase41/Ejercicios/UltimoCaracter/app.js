@@ -3,5 +3,5 @@
 
 const esUltimoCaracter = (palabra, caracter) => palabra.slice(-1)== caracter;
 
-console.log(esUltimoCaracter('lovelace', 'e'));
-console.log(esUltimoCaracter('lovelace', 'f'));
+console.log(esUltimoCaracter('lovelace', 'e')); //True
+console.log(esUltimoCaracter('lovelace', 'f')); //False
