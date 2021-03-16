@@ -33,6 +33,22 @@ NomVariable.classList.replace ("oldClass", "newClass"); //Reemplaza una clase ex
 
 
 ---------------Clase 38 JS-------------------------
+
+EVENTOS
+
+1) element.addEventListener = addEventListener() Registra un evento a un objeto en específico. El Objeto especifico puede ser un simple elemento en un archivo, el mismo  documento , una ventana o un  XMLHttpRequest. Para registrar más de un eventListener, puedes llamar addEventListener() para el mismo elemento pero con diferentes tipos de eventos o parámetros de captura.
+
+Sintaxis: element.addEventListener(tipoEvento, listener()[useCapture]); //tipoEvento: Una cadena representando el  tipo de evento a escuchar. listener(): El objeto que recibe una notificación cuando un evento de el tipo especificado ocurre. Debe ser un objeto implementando la interfaz EventListener o solo una function en JavaScript.
+
+Lista de eventos parametro para el addEventListener
+
+click: Cuando el evento click es ejecutado sobre el elemento target del DOM 
+keypress: Cuando es presionada una tecla del teclado sobre el elemento target del DOM
+keydown: Cuando es presionada la tecla hacía arriba (↑) sobre el elemento target del DOM
+keyup: Cuando es presionada la tecla hacía abajo (↓) sobre el elemento target del DOM
+
+
+
 https://7ma-frontend-online.adaitw.org/docs/modulo-2/clase-38
 
 
