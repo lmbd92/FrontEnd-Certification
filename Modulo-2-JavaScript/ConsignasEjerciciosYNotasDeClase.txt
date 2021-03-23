@@ -1,5 +1,9 @@
 https://github.com/Ada-IT/ejercicios-frontend/blob/master/modulo-2/ejercicios/18-dom-eventos.md
+https://github.com/Ada-IT/ejercicios-frontend/blob/master/modulo-2/ejercicios/14-funciones.md
+https://7ma-frontend-online.adaitw.org/docs/modulo-2/clase-30
 https://github.com/matiasbenary/cajeroAda
+Libro: https://eloquentjs-es.thedojo.mx/index.html
+
 
 
 ---------------Clase 37 JS-------------------------
@@ -91,6 +95,7 @@ https://frontend-proyecto-meme.adaitw.org/
 ---------------Clase 41 JS-------------------------
 
 Funciones nativas de Js
+Callback (Pasar una función como parametro de otra función)	
 
 
 
